@@ -45,3 +45,12 @@ https://github.com/mr-fool/web3-encrypt
 
 
 Inspiration
+
+
+https://medium.com/terminaldotco/escape-hatch-proxy-efb681de108d
+
+
+-This article inspired me from a technical perspective because it addresses one of the biggest challenge of smart contract and dApps-updating and maintainability. The article it provides another approach other than the traditional "kill" switch in a smart contract and dApps
+
+
+Focus
