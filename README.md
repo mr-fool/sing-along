@@ -17,7 +17,11 @@ https://mr-fool.github.io/citadeltr/
 
 
 -I created the project
+
+
 -A mock up for my friend's company 
+
+
 -It is mobile friendly
 
 
@@ -28,6 +32,9 @@ https://github.com/mr-fool/Lottery (the actual contract)
 
 
 -Refactor the code from solidity 4 to 5
+
+
+
 -Deploy it to rinkeby network
 
 
