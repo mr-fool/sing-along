@@ -22,4 +22,5 @@ Grandma Shark doo doo doo doo doo doo
 Grandma Shark!`;
 
 var result = song.split(/\r?\n/);
+//Testing the split
 console.log(result);
