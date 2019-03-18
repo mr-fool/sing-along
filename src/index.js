@@ -20,3 +20,6 @@ Grandma Shark doo doo doo doo doo doo
 Grandma Shark doo doo doo doo doo doo
 Grandma Shark doo doo doo doo doo doo
 Grandma Shark!`;
+
+var result = song.split(/\r?\n/);
+console.log(result);
