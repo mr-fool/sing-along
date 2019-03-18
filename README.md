@@ -12,6 +12,8 @@
 
 Work/Project examples
 https://mr-fool.github.io/citadeltr/
+
+
 -I created the project
 -A mock up for my friend's company 
 -It is mobile friendly
