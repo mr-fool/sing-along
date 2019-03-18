@@ -54,3 +54,17 @@ https://medium.com/terminaldotco/escape-hatch-proxy-efb681de108d
 
 
 Focus
+
+
+-If I were given the time and resources to build/learn anything I wanted during my internship, I would choose to focus on progressive web apps. I would spend half of the time surveying what the users want. I believe that the user's input will play significant role in the implementations.
+
+
+
+Code Challenge
+https://github.com/mr-fool/sing-along/
+
+
+Github page version of it 
+
+
+
