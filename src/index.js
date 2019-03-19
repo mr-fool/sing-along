@@ -21,6 +21,8 @@ Grandma Shark doo doo doo doo doo doo
 Grandma Shark!`;
 
 $(document).ready(function() {
+  //splitting song
+  
   var arr = song.split("\n");
   arr.forEach((line, i) => {
     setTimeout(() => {
