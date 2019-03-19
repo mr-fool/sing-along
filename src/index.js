@@ -1,6 +1,5 @@
-//import "./styles.css";
-const listEl = document.getElementById("lyrics-list");
-const  song = `Baby Shark doo doo doo doo doo doo
+
+const song = `Baby Shark doo doo doo doo doo doo
 Baby Shark doo doo doo doo doo doo
 Baby Shark doo doo doo doo doo doo
 Baby Shark!
@@ -21,25 +20,11 @@ Grandma Shark doo doo doo doo doo doo
 Grandma Shark doo doo doo doo doo doo
 Grandma Shark!`;
 
-
-
-const lyrics = song.split("\n");
-
-//Testing the split
-console.log(lyrics);
-const delay = 1500;
-let lineCount = 0;
-
-const printLyric = () => {
-  let listItem = document.createElement("li");
-  listItem.innerHTML = lyrics[lineCount];
-  listEl.appendChild(listItem);
-
-  lineCount++;
-
-  if (lineCount >= lyrics.length) {
-    clearInterval(interval);
-  }
-};
-
-let interval = setInterval(printLyric, delay);
+$(document).ready(function() {
+  var arr = song.split("\n");
+  arr.forEach((line, i) => {
+    setTimeout(() => {
+      $("#lyrics-list").append("<li>" + line + "</li>");
+    }, 1500 * i);
+  });
+});
